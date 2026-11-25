@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#081b2c">
+  <meta name="description" content="ViWallet hợp nhất giao dịch từ thẻ tín dụng và tài khoản ngân hàng ngay trên thiết bị của bạn. An toàn, riêng tư và rõ ràng.">
+  <meta property="og:title" content="ViWallet — Mọi thẻ & tài khoản, một góc nhìn rõ ràng">
+  <meta property="og:description" content="Ứng dụng quản lý tài chính cá nhân lưu trữ cục bộ, tự động phân loại chi tiêu từ Gmail và Apple Shortcuts.">
+  <meta property="og:image" content="./assets/home.png">
+  <title>ViWallet — Quản lý chi tiêu đa thẻ &amp; tài khoản trên thiết bị</title>
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+  <link rel="icon" type="image/png" href="./assets/logo.png">
+  <link rel="apple-touch-icon" href="./assets/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/styles.css">
+  <script defer src="./assets/site.js"></script>
+</head>
+<body data-page="home">
+  <header>
+    <a class="brand" href="./index.html"><img class="logoimg" src="./assets/logo.png" alt="ViWallet">Vi<span class="green">Wallet</span></a>
+    <nav>
+      <a href="#features" data-v="nav1">Tính năng</a>
+      <a href="#privacy" data-v="nav2">Bảo mật &amp; Riêng tư</a>
+      <a href="./privacy.html" data-v="nav3">Chính sách</a>
+      <a href="./terms.html" data-v="navTerms">Điều khoản</a>
+    </nav>
+    <div class="right">
+      <button id="lang" type="button" aria-label="Switch language">EN</button>
+      <a class="btn small outline" href="#features" data-v="nav4">Khám phá</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero wrap">
+      <div class="copy">
+        <div class="eyebrow"><i></i><span data-v="eyebrow">TÀI CHÍNH CÁ NHÂN · LƯU TRỮ TRÊN THIẾT BỊ</span></div>
+        <h1 data-v-html="hero">Mọi thẻ &amp; tài khoản.<br><em>Một góc nhìn rõ ràng.</em></h1>
+        <p data-v="lead">ViWallet hợp nhất giao dịch từ thẻ tín dụng, tài khoản ngân hàng, Gmail và ứng dụng Phím tắt (Shortcuts) ngay trên iPhone của bạn — tự động phân loại cửa hàng, theo dõi kỳ sao kê và kiểm soát ngân sách mà không cần lưu dữ liệu lên đám mây.</p>
+        <div class="actions">
+          <a class="btn primary" href="#features"><span data-v="cta">Khám phá tính năng</span> ↗</a>
+          <small data-v="note">Hỗ trợ Google, Apple &amp; Chế độ Khách · Dữ liệu mã hóa AES-256 trên máy</small>
+        </div>
+        <div class="trust">
+          <span>✓ <b data-v="trust1">Đa thẻ &amp; màu thẻ cá nhân hóa</b></span>
+          <span>✓ <b data-v="trust2">Tự động từ Gmail &amp; Shortcuts</b></span>
+          <span>✓ <b data-v="trust3">Xóa dữ liệu tức thì 1 chạm</b></span>
+        </div>
+      </div>
+
+      <div class="visual">
+        <div class="glow"></div>
+        <div class="phone">
+          <img class="phoneshot" src="./assets/home.png" alt="ViWallet Home Screen">
+        </div>
+        <div class="float top">📊 <span><b data-v="floatTop1">Biểu đồ 10 ngày trực quan</b><small data-v="floatTop2">Chạm từng cột để lọc giao dịch ngày</small></span></div>
+        <div class="float bottom">🔒 <span><b data-v="float2">Mã hóa chuẩn AES-256</b><small data-v="float3">Lưu cục bộ &amp; khóa bảo mật trên máy</small></span></div>
+      </div>
+    </section>
+
+    <section class="strip">
+      <div><b>01</b><span data-v="strip1">Màu sắc thẻ đồng bộ mọi màn hình</span></div>
+      <div><b>02</b><span data-v="strip2">Đồng bộ Gmail &amp; Apple Shortcuts</span></div>
+      <div><b>03</b><span data-v="strip3">Tự động gán danh mục theo Tag cửa hàng</span></div>
+      <div><b>04</b><span data-v="strip4">Ngân sách lọc riêng từng thẻ &amp; tài khoản</span></div>
+    </section>
+
+    <section class="wrap features" id="features">
+      <div class="intro">
+        <div class="eyebrow" data-v="feye">BỨC TRANH TÀI CHÍNH TOÀN DIỆN</div>
+        <h2 data-v-html="ftitle">Hiểu rõ từng đồng chi tiêu.<br><em>Chủ động trước mọi kỳ sao kê.</em></h2>
+        <p data-v="flead">Không còn phải mở từng ứng dụng ngân hàng rời rạc. Mọi thẻ tín dụng và tài khoản được hiển thị trực quan theo đúng màu sắc bạn chọn.</p>
+      </div>
+
+      <div class="grid">
+        <article class="tile big">
+          <div class="ico greenbg">▤</div>
+          <h3 data-v="f1t">Đa thẻ tín dụng &amp; Giao diện màu thẻ riêng</h3>
+          <p data-v="f1p">Tùy chỉnh 6 bảng màu thẻ đặc trưng (Đen Vàng đồng, Xanh chuối Đen, Xanh dương Trắng, Đen Bạc, Xanh Xám, Mint Pastel) hiển thị xuyên suốt Trang chủ, Chi tiết thẻ và Thống kê nguồn tiền.</p>
+          <div class="stack">
+            <div><small>ACB VISA SIGNATURE</small><b>₫12.600.000</b><small>•••• 0568</small></div>
+            <div><small>VIB · PLATINUM</small><b>₫8.250.000</b><small>•••• 1593</small></div>
+          </div>
+        </article>
+
+        <article class="tile">
+          <div class="ico bluebg">⚡</div>
+          <h3 data-v="f2t">Tự động ghi nhận qua Gmail &amp; Shortcuts</h3>
+          <p data-v="f2p">Kết nối Gmail ở chế độ chỉ đọc (tùy chọn khung 1–45 ngày) hoặc dùng ứng dụng Phím tắt (Apple Shortcuts) để ghi nhận giao dịch từ Apple Wallet và thông báo ngân hàng (tự động nhận diện và bỏ qua tin nhắn OTP).</p>
+          <div class="period">
+            <b data-v="syncTag1">Gmail Chỉ đọc</b>
+            <span data-v="syncTag2">Apple Shortcuts</span>
+            <span data-v="syncTag3">Kỳ sao kê thẻ</span>
+          </div>
+        </article>
+
+        <article class="tile">
+          <div class="ico purplebg">◒</div>
+          <h3 data-v="f3t">Ngân sách linh hoạt theo từng thẻ</h3>
+          <p data-v="f3p">Đặt hạn mức chi tiêu theo danh mục, lọc ngân sách riêng cho từng thẻ tín dụng hoặc tài khoản ngân hàng và sắp xếp thứ tự ưu tiên tùy ý.</p>
+          <div class="donutrow">
+            <div class="donut"></div>
+            <div class="legend">
+              <span>● <b data-v="food">Ăn uống</b> <i>36%</i></span>
+              <span>● <b data-v="transport">Di chuyển</b> <i>28%</i></span>
+              <span>● <b data-v="shopping">Mua sắm</b> <i>20%</i></span>
+            </div>
+          </div>
+        </article>
+
+        <article class="tile wide">
+          <div class="ico goldbg">🏷</div>
+          <h3 data-v="f4t">Tự động phân loại bằng Tag cửa hàng &amp; Lọc ngày nhanh</h3>
+          <p data-v="f4p">Thêm tên cửa hàng quen thuộc (Grab, Shopee, Highlands, WinMart...) vào từng danh mục để ứng dụng tự động phân loại chuẩn xác. Chạm vào bất kỳ ngày nào trên biểu đồ 10 ngày để xem ngay toàn bộ giao dịch ngày đó.</p>
+          <div class="tagpills">
+            <span class="active" data-v="tag1">Grab · Di chuyển</span>
+            <span class="active" data-v="tag2">Highlands · Ăn uống</span>
+            <span data-v="tag3">WinMart · Đi chợ</span>
+            <span data-v="tag4">Shopee · Mua sắm</span>
+            <span data-v="tagHint">+ Tùy chỉnh Tag cửa hàng không giới hạn</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="privacy" id="privacy">
+      <div class="wrap privacygrid">
+        <div>
+          <div class="eyebrow light" data-v="peye">QUYỀN RIÊNG TƯ &amp; BẢO MẬT DỮ LIỆU</div>
+          <h2 data-v-html="ptitle">Tài chính của bạn.<br><em>Toàn quyền kiểm soát trên thiết bị.</em></h2>
+          <p data-v="plead">ViWallet không lưu trữ lịch sử giao dịch của bạn trên máy chủ đám mây. Toàn bộ dữ liệu tài chính được lưu trong cơ sở dữ liệu cục bộ đã mã hóa chuẩn AES-256 ngay trên thiết bị của bạn.</p>
+          <div class="privacylinks">
+            <a class="textlink" href="./privacy.html" data-v="plink">Đọc Chính sách quyền riêng tư ↗</a>
+            <a class="textlink" href="./terms.html" data-v="tlink">Đọc Điều khoản dịch vụ ↗</a>
+          </div>
+        </div>
+        <div class="points">
+          <div>
+            <i>✓</i>
+            <span>
+              <b data-v="p1t">Cơ sở dữ liệu mã hóa AES-256 &amp; Khóa sinh trắc học</b>
+              <small data-v="p1p">Bảo vệ dữ liệu tài chính bằng mã hóa phần cứng chuẩn AES-256, lưu khóa kết nối an toàn trong Apple Keychain, tích hợp lớp bảo vệ chống can thiệp trái phép và hỗ trợ khóa ứng dụng bằng Face ID / Touch ID.</small>
+            </span>
+          </div>
+          <div>
+            <i>✓</i>
+            <span>
+              <b data-v="p2t">Tuân thủ chuẩn dữ liệu người dùng của Google</b>
+              <small data-v="p2p">Chỉ yêu cầu quyền đọc email giao dịch tối thiểu, không bán dữ liệu cá nhân, không phục vụ quảng cáo và không dùng dữ liệu của bạn để huấn luyện trí tuệ nhân tạo (AI).</small>
+            </span>
+          </div>
+          <div>
+            <i>✓</i>
+            <span>
+              <b data-v="p3t">Chủ động xóa dữ liệu &amp; ngắt kết nối tức thì</b>
+              <small data-v="p3p">Xóa sạch toàn bộ dữ liệu chỉ với 1 chạm trong Cài đặt, tùy chọn xóa dữ liệu ngay khi Đăng xuất / Thoát chế độ Khách, hoặc ngắt kết nối email bất cứ lúc nào.</small>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap how">
+      <div class="intro center">
+        <div class="eyebrow" data-v="heye">BẮT ĐẦU DỄ DÀNG</div>
+        <h2 data-v="htitle">Sẵn sàng chỉ trong vài bước ngắn.</h2>
+      </div>
+      <div class="steps">
+        <div>
+          <b>01</b>
+          <h3 data-v="s1t">Chọn chế độ sử dụng</h3>
+          <p data-v="s1p">Đăng nhập bằng Google, Apple hoặc trải nghiệm ngay với Chế độ Khách (Guest Mode) hoàn toàn ngoại tuyến mà không cần tạo tài khoản.</p>
+        </div>
+        <div>
+          <b>02</b>
+          <h3 data-v="s2t">Thiết lập thẻ &amp; Nguồn tự động</h3>
+          <p data-v="s2p">Chọn màu sắc nhận diện cho từng thẻ, bật đồng bộ Gmail chỉ đọc hoặc kết nối ứng dụng Phím tắt (Shortcuts) cho Apple Wallet và thông báo ngân hàng.</p>
+        </div>
+        <div>
+          <b>03</b>
+          <h3 data-v="s3t">Theo dõi &amp; Kiểm soát ngân sách</h3>
+          <p data-v="s3p">Xem xu hướng 10 ngày, đối soát kỳ sao kê, nhắc hạn thanh toán thẻ và quản lý hạn mức từng danh mục.</p>
+        </div>
+      </div>
+      <div class="coming"><i></i><span data-v="coming">ViWallet hỗ trợ song ngữ Việt – Anh đầy đủ và bảo mật dữ liệu hoàn toàn cục bộ trên iOS.</span></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap foot">
+      <div>
+        <a class="brand" href="./index.html"><img class="logoimg" src="./assets/logo.png" alt="ViWallet">Vi<span class="green">Wallet</span></a>
+        <p data-v="tagline">Hiểu rõ dòng tiền. An tâm riêng tư trên thiết bị của bạn.</p>
+      </div>
+      <div>
+        <b data-v="product">Sản phẩm</b>
+        <a href="#features" data-v="nav1">Tính năng</a>
+        <a href="#privacy" data-v="nav2">Bảo mật &amp; Riêng tư</a>
+      </div>
+      <div>
+        <b data-v="legal">Pháp lý</b>
+        <a href="./privacy.html" data-v="privacy">Chính sách quyền riêng tư</a>
+        <a href="./terms.html" data-v="terms">Điều khoản dịch vụ</a>
+      </div>
+      <div>
+        <b data-v="contact">Liên hệ</b>
+        <a href="mailto:contact@tacodo.com">contact@tacodo.com</a>
+        <small data-v="replace">Email hỗ trợ chính thức sẽ được cập nhật khi phát hành.</small>
+      </div>
+    </div>
+    <div class="wrap footbottom">
+      <span>© <span id="year"></span> ViWallet · <span data-v="rights">Bảo lưu mọi quyền.</span></span>
+      <span>wallet.tacodo.com</span>
+    </div>
+  </footer>
+</body>
+</html>
